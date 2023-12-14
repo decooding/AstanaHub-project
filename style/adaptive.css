@@ -1,0 +1,300 @@
+@media only screen and (max-width: 1200px) {
+
+    .text-70 {
+        font-size: 2.8rem;
+
+    }
+
+    .coral-button {
+        font-size: 2rem;
+    }
+
+    .text-25 {
+        font-size: 36px;
+    }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .head-text {
+        font-size: 3rem;
+        font-family: 'Hoves Demi', sans-serif;
+    }
+
+    .text-70,
+    .coral-button {
+        font-size: 1.8rem;
+    }
+
+    .slash h2 {
+        font-size: 36px;
+    }
+
+    .slash p span {
+        font-size: 24;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .text-25 {
+        font-size: 2rem;
+    }
+
+    .black-wrap h6 {
+        font-size: 1.3rem;
+    }
+
+    .step {
+        font-size: 96px;
+    }
+
+    .step-text,
+    .result-text {
+        font-size: 18px;
+    }
+
+    .carousel .card span {
+        font-size: 9px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .wrapper i:first-child {
+        left: -2px;
+      }
+      
+      .wrapper i:last-child {
+        right: -2px;
+      }
+    .head-text {
+        font-size: 2rem !important;
+        font-family: 'Hoves Demi', sans-serif;
+    }
+
+    h5 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper .carousel {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .astana-hub {
+        margin-top: 30px;
+    }
+
+    .head-text {
+        font-size: 2rem !important;
+        font-family: 'Hoves Demi', sans-serif;
+    }
+
+    h5 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .circle {
+        margin-left: 30%;
+    }
+
+    .slash p span {
+        font-size: 16px;
+    }
+
+    a .coral-button {
+        font-size: 20px !important;
+    }
+
+    .step {
+        font-size: 60px;
+    }
+
+    .step-image {
+        width: 100%;
+    }
+
+    .text-25 {
+        font-size: 25px;
+    }
+
+    .step-text {
+        font-size: 16px;
+    }
+
+    .text-40 {
+        font-size: 2.5rem;
+    }
+
+    .accordion .item .item-header h2 button.btn.btn-link {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .circle {
+        margin: 0 15%;
+        margin-top: 50px;
+    }
+    .black-button {
+        font-size: 0.7rem;
+        width: 180px;
+    }
+
+    .slash h2 {
+        font-size: 20px;
+    }
+
+    .slash p, .module-h {
+        font-size: 16px;
+    }
+
+    .coral-button {
+        font-size: 18px !important;
+        max-width: 100% ;
+    }
+
+    .text-20 {
+        font-size: 14px;
+    }
+    .text-25  {
+        font-size: 21px;
+    }
+
+    .black-wrap {
+        padding: 20px;
+        margin-left: 0 !important;
+
+    }
+
+    .black-wrap h6 {
+        font-size: 0.9rem;
+    }
+
+    .text-40 {
+        font-size: 1.8rem;
+    }
+
+    .accordion .item .item-header h2 i {
+        width: 36px;
+        height: 36px;
+
+    }
+
+    .accordion .item .item-header h2 button.btn.btn-link, .module-bottom-text, .foo-text, .module-text  {
+        font-size: 16px;
+    }
+
+    .accordion .item .item-header h2 button {
+        padding-left: 15px;
+    }
+
+    .result-text {
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    .result-wrap img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .step {
+        font-size: 70px;
+    }
+    .web-wrap{
+        padding: 20px;
+    }
+    .foo-btn-txt {
+        font-size: 11px;
+    }
+
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    .text-70 {
+        font-size: 1.2rem;
+    }
+
+    .slash h2 {
+        font-size: 20px;
+    }
+
+    .slash p, .module-h {
+        font-size: 16px;
+    }
+
+    .coral-button {
+        font-size: 12px !important;
+        max-width: 100% ;
+    }
+
+    .text-20 {
+        font-size: 14px;
+    }
+    .text-25  {
+        font-size: 18px;
+    }
+
+    .black-wrap {
+        padding: 20px;
+        margin-left: 0 !important;
+
+    }
+
+    .black-wrap h6 {
+        font-size: 0.9rem;
+    }
+
+    .text-40 {
+        font-size: 1.8rem;
+    }
+
+    .accordion .item .item-header h2 i {
+        width: 36px;
+        height: 36px;
+
+    }
+
+    .accordion .item .item-header h2 button.btn.btn-link, .module-bottom-text, .foo-text, .module-text  {
+        font-size: 12px;
+    }
+
+    .accordion .item .item-header h2 button {
+        padding-left: 15px;
+    }
+
+    .result-text {
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    .result-wrap img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .step {
+        font-size: 56px;
+    }
+    .web-wrap{
+        padding: 20px;
+    }
+    .foo-btn-txt {
+        font-size: 7px;
+    }
+
+}
