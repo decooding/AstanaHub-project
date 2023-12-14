@@ -88,19 +88,25 @@
   font-size: 12px;
 }
 
-/* #left-carusel,
+#left-carusel,
 #right-carusel {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  margin-top: 40px;
+  display: none;
 }
 
-#left-carusel {
-  left: calc(50% - 130px);
-}
+@media screen and (max-width: 500px) {
+  #left-carusel,
+  #right-carusel {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+  }
 
-#right-carusel {
-  right: calc(50% - 200px);
-} */
+  #left-carusel {
+    left: 10px;
+  }
+
+  #right-carusel {
+    right: 10px;
+  }
+}

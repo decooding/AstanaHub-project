@@ -94,3 +94,15 @@
   margin: 15px;
   font-weight: 100;
 }
+
+@media screen and (max-width: 992px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 3) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}

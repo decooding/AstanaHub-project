@@ -6,26 +6,25 @@
 
 @font-face {
   font-family: Hoves Demi;
-  src: url(./fonts/TTHoves-DemiBold.ttf);
-  src: url(./fonts/TTHoves-DemiBold.woff);
+  src: url(../fonts/TTHoves-DemiBold.ttf), url(../fonts/TTHoves-DemiBold.woff);
 }
 
 @font-face {
   font-family: Hoves Bold;
-  src: url(./fonts/TTHoves-Bold.ttf);
-  src: url(./fonts/TTHoves-Bold.woff);
+  src: url(../fonts/TTHoves-Bold.ttf);
+  src: url(../fonts/TTHoves-Bold.woff);
 }
 
 @font-face {
   font-family: Hoves Regular;
-  src: url(./fonts/TTHoves-Regular.ttf);
-  src: url(./fonts/TTHoves-Regular.woff);
+  src: url(../fonts/TTHoves-Regular.ttf);
+  src: url(../fonts/TTHoves-Regular.woff);
 }
 
 @font-face {
   font-family: Hoves Medium;
-  src: url(./fonts/TTHoves-Medium.ttf);
-  src: url(./fonts/TTHoves-Medium.woff);
+  src: url(../fonts/TTHoves-Medium.ttf);
+  src: url(../fonts/TTHoves-Medium.woff);
 }
 
 html {
@@ -50,6 +49,12 @@ body {
 .navbar img {
   width: 35%;
   height: auto;
+}
+
+.circle-image {
+  display: block;
+  margin: 0 auto;
+  width: clamp(150px, 100%, 255px);
 }
 
 .head-text {
@@ -129,6 +134,7 @@ h3 {
   color: #fff;
   font-size: 1.6rem;
   text-align: center;
+  font-family: "Hoves Regular", serif;
   border-radius: 25px;
   max-width: 50%;
   padding: 8px 0;
@@ -137,7 +143,7 @@ h3 {
 
 .slash h2 {
   color: #111;
-  font-family: "Hoves Bold";
+  font-family: "Hoves Bold", serif;
   font-weight: bold;
   font-size: 42px;
 }
@@ -145,11 +151,12 @@ h3 {
 .slash p {
   font-size: 20px;
   font-weight: 600;
-  font-family: "Hoves Regular";
+  font-family: "Hoves Medium", serif;
 }
 
 .slash p span {
   color: #111;
+  font-family: "Hoves Medium", serif;
   margin-left: 10px;
 }
 
@@ -180,7 +187,7 @@ h3 {
 .digit {
   color: #85a3d5;
   font-family: "Hoves Medium", serif;
-  font-size: 46px;
+  font-size: 2.5em;
 }
 
 .stroke-container {
@@ -245,40 +252,16 @@ hr {
 .step-image {
   margin-top: -45px;
 }
-.result-wrap {
-  border-radius: 11px;
-  border: 2px solid #ec6750;
-  margin: 10px;
-  padding: 15px;
-  align-items: center;
-}
-.result-wrap img {
-  width: 60px;
-  height: 60px;
-}
-.result-text {
-  color: #fff;
-  font-family: "Hoves Regular";
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 133.3%;
-  /* 33.325px */
-  letter-spacing: -0.275px;
-  text-align: left;
-  margin-left: 60px;
-}
 
 @keyframes slide {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
 }
-
-/* *****WALL HORIZONTAL SCROLL********** */
 
 .logos {
   overflow: hidden;
@@ -302,10 +285,6 @@ hr {
   right: 0;
 }
 
-.logos:hover .logos-slide {
-  animation-play-state: paused;
-}
-
 .logos-slide {
   display: inline-block;
   animation: 60s slide infinite linear;
@@ -315,7 +294,7 @@ hr {
   margin: 0 10px;
 }
 
-/* *************ACCORDION******************** */
+/* **********ACCORDION************************ */
 
 .accordion {
   margin: 40px 0;
@@ -379,7 +358,7 @@ button.btn.btn-link i {
   transition: 0.5s;
 }
 
-/* ************MODULE****************** */
+/* ********MODULE********************** */
 .module-wrap {
   margin-bottom: 60px;
 }
@@ -422,6 +401,33 @@ button.btn.btn-link i {
   text-transform: uppercase;
   font-family: "Hoves Demi";
 }
+
+/* ********RESULT********************** */
+
+.result-wrap {
+  border-radius: 11px;
+  border: 2px solid #ec6750;
+  margin: 10px;
+  padding: 15px;
+  align-items: center;
+}
+.result-wrap img {
+  width: 60px;
+  height: 60px;
+}
+.result-text {
+  color: #fff;
+  font-family: "Hoves Regular";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.3%;
+  /* 33.325px */
+  letter-spacing: -0.275px;
+  text-align: left;
+  margin-left: 60px;
+}
+
 /* ******FOOTER********** */
 
 .foo-text {
